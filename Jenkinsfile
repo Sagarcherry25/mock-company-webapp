@@ -5,6 +5,7 @@ pipeline {
         stage("Build") {
             steps {
                 sh "./gradlew assemble"
+                
             }
         }
         stage("Test") {
